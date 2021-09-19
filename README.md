@@ -1,6 +1,5 @@
 # Password-Generator
 
-Intro (optional)
 The program is used to create account information with random passwords. When you click the save button, it will save all the information on the screen to a running list. You can show accounts, and hide accounts with the respective buttons. The search button will search through your accounts to find accounts with the key word. The final step would be to hit the save CSV button, which would update your csv user history file.
 To run the program use the terminal. In order to utilize the SAVE_CSV function, you must already have a CSV file in the same folder that the program exists called: “userhistory.csv”. After you hit the save csv file, to see if it has worked, go to your finder, and open the “userhistory.csv” file. This should have the updated version of your accounts.
 In order to run the tests, run the command: python3 -m unittest Final_Test.py which is in its own file.
