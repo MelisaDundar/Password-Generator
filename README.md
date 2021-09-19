@@ -3,21 +3,20 @@
 The program is used to create account information with random passwords. When you click the save button, it will save all the information on the screen to a running list. You can show accounts, and hide accounts with the respective buttons. The search button will search through your accounts to find accounts with the key word. The final step would be to hit the save CSV button, which would update your csv user history file.
 To run the program use the terminal. In order to utilize the SAVE_CSV function, you must already have a CSV file in the same folder that the program exists called: “userhistory.csv”. After you hit the save csv file, to see if it has worked, go to your finder, and open the “userhistory.csv” file. This should have the updated version of your accounts.
 In order to run the tests, run the command: python3 -m unittest Final_Test.py which is in its own file.
-Features
-● A list of the 2 - 3 features that you listed in your project proposal. If this has changed, only discuss the most up-to-date features
-1. Random Password Generator
-2. Search Function
-3. Save to CSV file function
-Justification for Complexity
-● Brief justification for why the project should receive full credit for complexity: ○ How did your features contribute to complexity?
+
+Features:
+     1. Random Password Generator
+     2. Search Function
+     3. Save to CSV file function
+Complexity:
+     ● Brief justification for why the project should receive full credit for complexity: ○ How did your features contribute to complexity?
 The functions we used are difficult, because we had to create them to work obviously, but then had to also make sure they worked within the framework of the user interface. The user interface created many obstacles to work around, so we had to change our functions in to fit the requirements of the Tkinter module.
-○ Did you make use of more advanced features of Snap!
      
- We used list comprehension, dictionaries, lists, and classes within the program. We used multiple modules like Tkinter, datetime, random, and csv, which were new to all of us.
-○ How did you break up complicated tasks?
-We made use of functional programming. We made multiple helper functions that were called inside of other functions.
-Lists & Script Variables
-● Description of how you utilized lists and script variables in your project.
+     ● We used list comprehension, dictionaries, lists, and classes within the program. We used multiple modules like Tkinter, datetime, random, and csv, which were new to all of us.
+     ● We made use of functional programming. We made multiple helper functions that were called inside of other functions.
+Lists & Script Variables" 
+     ● Use lists and script variables in your project.
+
 The lists we used include the LIST_OF_ACCOUNTS which was a global list used to save the information, and to display account information on the screen. The second list we use is the passcode list, which saves random characters into a list and then shuffles all the list items, and returns a new list. That list is then joined together, which creates the random passwords. Another list we used was the display_lst, which creats a new version of LIST_OF_ACCOUNTS in order to remove items from the screen or display them. We used global lists to keep track of our current username, account name, and passwords. We used script variables in our Button functions in order to keep track of the input in the text bar for example USERNAME = e.get() is the command we used to store the text inside the text bar, as our username. Another script variable we used were the multiple random characters inside the random password generator function.
 Function Table
 Each row will describe the functionality of one custom block/function, with the relevant information placed in the relevant columns (as defined above). You must include a separate row for EVERY custom block/function you create
