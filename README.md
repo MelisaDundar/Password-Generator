@@ -9,7 +9,7 @@ Features:
      2. Search Function
      3. Save to CSV file function
 Complexity:
-     ● Brief justification for why the project should receive full credit for complexity: ○ How did your features contribute to complexity?
+ ○ How did your features contribute to complexity?
 The functions we used are difficult, because we had to create them to work obviously, but then had to also make sure they worked within the framework of the user interface. The user interface created many obstacles to work around, so we had to change our functions in to fit the requirements of the Tkinter module.
      
      ● We used list comprehension, dictionaries, lists, and classes within the program. We used multiple modules like Tkinter, datetime, random, and csv, which were new to all of us.
