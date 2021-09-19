@@ -14,8 +14,6 @@ The functions we used are difficult, because we had to create them to work obvio
      
      ● We used list comprehension, dictionaries, lists, and classes within the program. We used multiple modules like Tkinter, datetime, random, and csv, which were new to all of us.
      ● We made use of functional programming. We made multiple helper functions that were called inside of other functions.
-Lists & Script Variables" 
-     ● Use lists and script variables in your project.
 
 The lists we used include the LIST_OF_ACCOUNTS which was a global list used to save the information, and to display account information on the screen. The second list we use is the passcode list, which saves random characters into a list and then shuffles all the list items, and returns a new list. That list is then joined together, which creates the random passwords. Another list we used was the display_lst, which creats a new version of LIST_OF_ACCOUNTS in order to remove items from the screen or display them. We used global lists to keep track of our current username, account name, and passwords. We used script variables in our Button functions in order to keep track of the input in the text bar for example USERNAME = e.get() is the command we used to store the text inside the text bar, as our username. Another script variable we used were the multiple random characters inside the random password generator function.
 Function Table
